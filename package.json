@@ -8,12 +8,15 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vigneshshanmugam/node-inflight-requests.git"
   },
+  "files": [
+    "index.js"
+  ],
   "author": "Vignesh Shanmugam (me@vigneshh.in)",
   "license": "MIT",
   "bugs": {
