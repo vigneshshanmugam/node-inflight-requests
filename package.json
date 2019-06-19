@@ -19,6 +19,11 @@
   "files": [
     "index.js"
   ],
+  "keywords": [
+    "inflight",
+    "request",
+    "congestion"
+  ],
   "author": "Vignesh Shanmugam (me@vigneshh.in)",
   "license": "MIT",
   "bugs": {
