@@ -12,13 +12,15 @@ npm install node-inflight-requests
 
 ```js
 const http = require("http");
-const congestion = require("node-inflight-requests")({ error: false });
+const congestion = require("node-inflight-requests")();
 const server = http.createServer(serve);
 
 function serve(req, res) {
   const inflightReqs = congestion(res);
 
   console.log("No of requests in flight", inflightReqs);
+
+  reportMetrics(inflightReqs);
 
   if (inflightReqs > 100) {
     res.statusCode = 503; // Service Unavailable
@@ -28,3 +30,9 @@ function serve(req, res) {
   res.end();
 }
 ```
+
+### License
+
+The MIT License (MIT)
+
+Copyright (c) 2019 [Vignesh Shanmugam](https://vigneshh.in)
