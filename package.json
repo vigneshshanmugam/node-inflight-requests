@@ -1,6 +1,6 @@
 {
   "name": "node-inflight-requests",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Measure the number of inflight requests in your Node.js server. ",
   "main": "index.js",
   "dependencies": {
