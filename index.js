@@ -4,6 +4,7 @@ const endOfStream = require("end-of-stream");
 
 module.exports = function congestion(opts) {
   let inflightReqs = 0;
+  opts = opts || {};
   const error = opts.error || false;
 
   function handler() {
