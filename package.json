@@ -1,0 +1,23 @@
+{
+  "name": "node-inflight-requests",
+  "version": "1.0.0",
+  "description": "Measure the number of inflight requests in your Node.js server. ",
+  "main": "index.js",
+  "dependencies": {
+    "end-of-stream": "^1.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vigneshshanmugam/node-inflight-requests.git"
+  },
+  "author": "Vignesh Shanmugam (me@vigneshh.in)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vigneshshanmugam/node-inflight-requests/issues"
+  },
+  "homepage": "https://github.com/vigneshshanmugam/node-inflight-requests#readme"
+}
