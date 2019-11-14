@@ -4,10 +4,10 @@
   "description": "Measure the number of inflight requests in your Node.js server. ",
   "main": "index.js",
   "dependencies": {
-    "end-of-stream": "^1.4.1"
+    "end-of-stream": "^1.4.4"
   },
   "devDependencies": {
-    "mocha": "^6.1.4"
+    "mocha": "^6.2.2"
   },
   "scripts": {
     "test": "mocha --exit"
